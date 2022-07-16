@@ -3,3 +3,18 @@ h1 {
 }
 
 
+.column {
+  display: grid;
+  column-gap: 50px;
+}
+
+.text {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  width: 80%;
+  height: 275px;
+  margin: 1em auto;
+  border-radius: 10px;
+  padding: 1em;
+  background-color: rgb(227, 251, 231);
+  box-shadow: 2px 4px 8px #888888;
+}
