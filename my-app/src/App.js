@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import axios from 'axios'
 import Quote from './components/Quote'
 import { useState } from 'react'
+import Title from './components/Title.jsx'
 
 const App = () => {
 
@@ -18,7 +19,7 @@ const App = () => {
   
   return (
     <div>
-      <h1>Anime Quotes</h1>
+      <Title />
       <Quote quotes={quotes} />
     </div>
 
