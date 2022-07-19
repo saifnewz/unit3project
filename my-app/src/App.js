@@ -20,17 +20,18 @@ const App = () => {
   return (
     <div>
       <Title />
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
+      <div className="flip-card">
+        <div className="flip-card-inner">
+          <div className="flip-card-front">
             <Anime quotes={quotes} />
-          <div>
+          <div className="flip-card-back">
             <Quote quotes={quotes}/>
           </div>
           </div>
         </div>
       </div>
     </div>
+  
   )
 }
 
