@@ -4,7 +4,7 @@ const Quote = (props) => {
    
     return (
         
-        <div className="grid">
+        <div>
             {props.quotes.map((quote) => (
                 <div key={quote.quote} className="grid">
                     <h4>{quote.quote}</h4>
@@ -15,6 +15,5 @@ const Quote = (props) => {
     
     )
 }
-
 
 export default Quote 

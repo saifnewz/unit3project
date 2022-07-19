@@ -17,5 +17,4 @@ const Anime = (props) => {
     )
 }
 
-
 export default Anime 

@@ -24,10 +24,10 @@ const App = () => {
           <div className="flip-card-front">
               <Anime quotes={quotes} />
           </div>
-        </div>
-      </div>
       <div className='flip-card-back'>
         <Quote quotes={quotes}/>
+      </div>
+      </div>
       </div>
     </div>
       
