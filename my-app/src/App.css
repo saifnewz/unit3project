@@ -3,15 +3,48 @@ h1 {
   font-family: 'Trade Winds', cursive;
 }
 
+.flip-card {
+  background-color: transparent;
+  width: 80%;
+  height: 60%;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+}
 
-.column {
-  display: grid;
-  column-gap: 50px;
+.flip-card-inner {
+  position: relative;
+  width: 80%;
+  height: 60%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+.flip-card-back {
+  background-color: rgb(227, 251, 231);
+  color: black;
+  transform: rotateY(180deg);
 }
 
 .text {
   border: 2px solid rgba(0, 0, 0, 0.3);
-  width: 80%;
+  width: 50%;
   height: 275px;
   margin: 1em auto;
   border-radius: 10px;
