@@ -4,9 +4,8 @@ const Title = () => {
    
     return (
         
-        <h1>
-          Anime Quotes
-        </h1> 
+      <h1>Anime Quotes</h1> 
+      
     )
 }
 

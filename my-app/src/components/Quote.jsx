@@ -4,16 +4,15 @@ const Quote = (props) => {
    
     return (
         
-        <div>
+        <div className="grid">
             {props.quotes.map((quote) => (
                 <div key={quote.quote} className="grid">
-                    <h4>
-                        {quote.quote}
-                    </h4>
+                    <h4>{quote.quote}</h4>
                 </div>
             ))
             }
         </div> 
+    
     )
 }
 
