@@ -6,7 +6,7 @@ const Anime = (props) => {
         
         <div>
             {props.quotes.map((quote) => (
-                <div key={quote.anime} className="text">
+                <div key={quote.anime} className="grid">
                     <h2>
                         {quote.anime}
                     </h2>

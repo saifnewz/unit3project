@@ -20,6 +20,7 @@ const App = () => {
   return (
     <div>
       <Title />
+      <div className="grid">
       <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
@@ -29,6 +30,7 @@ const App = () => {
           </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   
