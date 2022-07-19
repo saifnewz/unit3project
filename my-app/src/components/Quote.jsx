@@ -6,7 +6,7 @@ const Quote = (props) => {
         
         <div>
             {props.quotes.map((quote) => (
-                <div key={quote.anime} className="grid">
+                <div key={quote.quote} className="grid">
                     <h4>
                         {quote.quote}
                     </h4>
