@@ -6,7 +6,7 @@ const Card = (props) => {
    
     return (
         
-        <div>
+        <div className="flip-card-row">
             
             {props.quotes.map((quote) => (
                 <div className="flip-card">

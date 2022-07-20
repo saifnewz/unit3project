@@ -61,3 +61,8 @@ h2 {
   height: 200px;
   border: 1px solid #f1f1f1;
 }
+
+.flip-card-row {
+  background-image: url("/src/renders-png-14102.png");
+  background-size:50%;
+}
