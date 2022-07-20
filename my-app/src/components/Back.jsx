@@ -6,7 +6,7 @@ const Back = (props) => {
         
 
                         <div className='flip-card-back'>
-                            <h4>{props.quote}</h4>    
+                            <h4>&ldquo;{props.quote}&rdquo;</h4>    
                         </div> 
 
 
