@@ -19,7 +19,6 @@ const App = () => {
   
   return (
     
-    
     <div>
       <div> 
         <div> 
@@ -28,13 +27,8 @@ const App = () => {
               <Card quotes={quotes} />
       </div>
     </div>
-  
-    
-
-    
-      
+   
   )
 }
-
 
 export default App
