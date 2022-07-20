@@ -5,6 +5,10 @@ h1 {
   color: red;
 }
 
+h2 {
+  color: blue;
+}
+
 .flip-card {
   font-family: 'Trade Winds';
   box-shadow: 2px 4px 8px #888888;
@@ -22,7 +26,7 @@ h1 {
   position: relative;
   width: 60%;
   height: 100%;
-  text-align: center;
+  text-align: left;
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
