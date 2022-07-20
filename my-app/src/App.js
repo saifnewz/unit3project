@@ -1,9 +1,8 @@
 import { BASE_URL } from './globals.js'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-import Anime from './components/Anime'
-import Quote from './components/Quote.jsx'
 import Title from './components/Title.jsx'
+import Card from './components/Card'
 
 const App = () => {
 
@@ -22,13 +21,14 @@ const App = () => {
     
     
     <div>
-    <div> <Title />
-              <Anime quotes={quotes} />
-          </div>
-      <div className='flip-card-back'>
-        <Quote quotes={quotes}/>
+      <div> 
+        <div> 
+          <Title />
+        </div>  
+              <Card quotes={quotes} />
       </div>
-      </div>
+    </div>
+  
     
 
     
