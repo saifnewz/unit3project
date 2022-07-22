@@ -9,7 +9,8 @@ const Card = (props) => {
         <div className="flip-card-row">
             
             {props.quotes.map((quote) => (
-                <div className="flip-card">
+
+                <div key={quote.quote} className="flip-card">
                     <div className="flip-card-inner">
                         < Front character={quote.character} anime={quote.anime}/> 
                         < Back quote={quote.quote} />
